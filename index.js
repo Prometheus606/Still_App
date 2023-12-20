@@ -36,6 +36,9 @@ function submit() {
         let date = new Date()
         let hours = date.getHours()
         let minutes = date.getMinutes()
+        if (minutes <= 9) {
+            minutes = "0" + minutes
+        }
         time = hours + ":" + minutes
     } 
 
