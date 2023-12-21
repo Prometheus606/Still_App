@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(36, 69, 107);
+    background-color: rgb(76, 129, 190);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,16 +42,28 @@ body {
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
 }
 
-#last-side {
+.text {
+    position: relative;
+    left: 20px;
     margin-top: 40px;
+    text-align: left;
+    padding: 0px;
 }
 
 #next-side {
     margin-top: 40px;
     font-weight: bolder;
+}
+
+#next-side > span {
+    margin-top: 40px;
+    font-weight: bolder;
+    font-size: 40px;
 }
 
 #error-text {
@@ -70,4 +82,5 @@ button {
 footer {
     position: fixed;
     bottom: 30px;
+    font-size: 20px;
 }
